@@ -192,6 +192,12 @@ fieldset[disabled] .btn-xl.active {
     margin: -15px;
 }
 
+.navbar-brand .img-responsive {
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
 @media(min-width:768px) {
     .navbar-brand>img {
         height: 100px;
@@ -213,8 +219,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: white;
+    background-color: none;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -281,6 +287,12 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+
+    .navbar-default.navbar-shrink img.img-responsive {
+    height: 50px;
+}
+
+
 }
 
 header {
@@ -344,11 +356,16 @@ header .intro-text .intro-heading {
 
 header .title-image {width: 60%; float: left; min-height: 550px; padding-top: 100px;}
 header .title-image img {width: 100%;}
-header .title-form {font-family: Montserrat, Arial; font-weight: 100; width: 40%; float: left; min-height: 475px; padding-top: 100px; text-align: left; padding-right: 30px; text-shadow: 1px 1px 5px #333;}
+header .title-form {font-family: Montserrat, Arial; font-weight: 100; width: 40%; float: left; min-height: 475px; padding-top: 145px; text-align: left; padding-right: 30px; text-shadow: 1px 1px 5px #333;}
 header .title-form datetime {font-size: 2.5em; text-align: left; display: block; line-height: 0.2em;}
 header .title-form location {font-size: 1.5em; text-align: left; display:block;}
 header .title-form info {font-size: 1em; text-align: left; display:block;}
 header .title-action {clear:both; padding-bottom:40px;}
+
+@media(max-width:768px){
+header .title-image {width: 100%; min-height: 100px;}
+header .title-form {padding-top: 0; width: 100%; padding-left: 30px; padding-right: 30px; min-height: 100px; padding-bottom: 30px;}
+}
 
 section {
     padding: 100px 0;
@@ -751,18 +768,20 @@ aside .heading {
 }
 
 section#contact {
-    background-color: #222;
-    background-image: url(../img/map-image.png);
+    background-color: white;
+    background-image: none;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 section#contact .section-heading {
-    color: #fff;
+    color: #222;
 }
 
 section#contact .form-group {
     margin-bottom: 25px;
+width: 50%;
+margin: -0 auto;
 }
 
 section#contact .form-group input,
@@ -818,6 +837,8 @@ section#contact .text-danger {
 section#contact .text-success {
     color: #ffffff;
 }
+
+section#contact .btn-xl, section#contact .btn-xl.disabled {border-color: #222; background: white; color: #222;} 
 
 footer {
     padding: 25px 0;
