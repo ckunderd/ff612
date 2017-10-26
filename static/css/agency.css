@@ -836,7 +836,7 @@ section#contact .text-danger {
 }
 
 section#contact .text-success {
-    color: #ffffff;
+    color: #222;
 }
 
 section#contact .btn-xl, section#contact .btn-xl.disabled {border-color: #222; background: white; color: #222;} 
