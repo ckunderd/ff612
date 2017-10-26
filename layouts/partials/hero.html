@@ -1,0 +1,12 @@
+{{ "<!-- Hero -->" | safeHTML }}
+<header>
+  	<div class="title-image"><img src="img/defend.png" /></div>
+  	<div class="title-form">
+  		<datetime>{{ with .Site.Params.hero.datetimeText }}{{ . }}{{ end }}</datetime><br>
+  		<location>{{ with .Site.Params.hero.locationText }}{{ . }}{{ end }}</location><br>
+  		<info>{{ with .Site.Params.hero.infoText }}{{ . }}{{ end }}</info>
+  	</div>
+    <div class="title-action">
+      <a href="#services" class="page-scroll btn btn-xl">{{ with .Site.Params.hero.buttonText }}{{ . }}{{ end }}</a>
+    </div>
+</header>

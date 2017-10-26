@@ -46,14 +46,14 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "The Agency"
+    brand = "Freedom Fighters 6.12"
     # Optional logo as brand stored in img/
-    #logo = "logo.svg"
-    services = "Services"
-    portfolio = "Portfolio"
-    about = "About"
-    team = "Team"
-    contact = "Contact"
+    logo = "logo.png"
+    # services = "Services"
+    # portfolio = "Portfolio"
+    # about = "About"
+    # team = "Team"
+    # contact = "Contact"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -66,7 +66,7 @@ googleAnalytics = ""
     #  weight = 10
 
     # postpended links
-    [[menu.postpend]]
+    # [[menu.postpend]]
       url = "http://gohugo.io"
       name = "External link"
       weight = 10
@@ -78,6 +78,9 @@ googleAnalytics = ""
     # the 'static/img' folder.
     title = "Welcome To Our Studio!"
     subtitle = "It's nice to meet you"
+    datetimeText = "November 16th, 7pm"
+    locationText = "Oakland Center | Gold Rooms"
+    infoText = "Ramesh Sapkota"
     buttonText = "Tell me more"
 
 
