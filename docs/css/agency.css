@@ -119,14 +119,14 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #fed136;
+    border-color:white;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: none;
 }
 
 .btn-xl:hover,
@@ -134,9 +134,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #f6bf01;
+    border-color: white;
     color: #fff;
-    background-color: #fec503;
+    background-color: rgba(255,255,255,0.2);
 }
 
 .btn-xl:active,
@@ -342,11 +342,13 @@ header .intro-text .intro-heading {
     }
 }
 
-header .title-image {width: 66%; float: left; min-height: 550px; padding-top: 100px;}
+header .title-image {width: 60%; float: left; min-height: 550px; padding-top: 100px;}
 header .title-image img {width: 100%;}
-header .title-form {width: 34%; float: left; min-height: 475px; padding-top: 175px; text-align: left;}
-header .title-form datetime {font-size: 2em; text-align: left;}
-header .title-action {clear:both;}
+header .title-form {font-family: Montserrat, Arial; font-weight: 100; width: 40%; float: left; min-height: 475px; padding-top: 100px; text-align: left; padding-right: 30px; text-shadow: 1px 1px 5px #333;}
+header .title-form datetime {font-size: 2.5em; text-align: left; display: block; line-height: 0.2em;}
+header .title-form location {font-size: 1.5em; text-align: left; display:block;}
+header .title-form info {font-size: 1em; text-align: left; display:block;}
+header .title-action {clear:both; padding-bottom:40px;}
 
 section {
     padding: 100px 0;

@@ -80,13 +80,13 @@ googleAnalytics = ""
     subtitle = "It's nice to meet you"
     datetimeText = "November 16th, 7pm"
     locationText = "Oakland Center | Gold Rooms"
-    infoText = "Ramesh Sapkota"
-    buttonText = "Tell me more"
+    infoText = "It’s estimated that 4.5 million people are trapped in forced sexual exploitation all over the world. We want to invite you to an event that will challenge you to learn about opportunities where we are able to lend our strength, resources, and even ourselves to fight for people’s freedom. We will be joined by Ramesh Sapkota of Our Daugthers International and KI Nepal, a Nepali NGO that has helped to rescue and defend 90,000 young women and children from sex trafficking around the Nepali-Indian border. Ramesh will share firsthand stories from the field and invite us to leverage our abilities to join in defending our daughters."
+    buttonText = "Register Now"
 
 
   # Services section
   [params.services]
-    enable = true
+    enable = false
     title = "Services"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
 
@@ -112,7 +112,7 @@ googleAnalytics = ""
 
   # Portfolio section
   [params.portfolio]
-    enable = true
+    enable = false
     # All projects defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
@@ -129,7 +129,7 @@ googleAnalytics = ""
 
     # About section
   [params.about]
-    enable = true
+    enable = false
     title = "About"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
     endpoint = "Be part<br>of our<br>story!"
@@ -164,7 +164,7 @@ googleAnalytics = ""
 
   # Team section
   [params.team]
-    enable = true
+    enable = false
     # Possibility to center items
     #center = true
     title = "Our amazing team"
@@ -216,7 +216,7 @@ She worked at Pied Piper for years until they went belly up."""
 
   # Client section
     [params.clients_list]
-      enable = true
+      enable = false
       # Possibility to center items
       #center = true
       # Optional client title specifying the involvement
@@ -240,7 +240,7 @@ She worked at Pied Piper for years until they went belly up."""
       [[params.clients]]
         logo = "creative-market.jpg"
         link = "#"
-
+        
   # Contact section
   [params.contact]
     enable = true
