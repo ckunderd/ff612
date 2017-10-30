@@ -1,7 +1,7 @@
 # Site settings
 baseurl = ""
 languageCode = "en-us"
-title = "Agency"
+title = "Freedom Fighters 6.12"
 theme = "agency"
 publishDir = "docs"
 
