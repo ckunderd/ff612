@@ -358,7 +358,7 @@ header .intro-text .intro-heading {
 header .title-image {width: 60%; float: left; min-height: 550px; padding-top: 100px;}
 header .title-image img {width: 100%;}
 header .title-form {font-family: Montserrat, Arial; font-weight: 100; width: 40%; float: left; min-height: 475px; padding-top: 145px; text-align: left; padding-right: 30px; text-shadow: 1px 1px 5px #333;}
-header .title-form datetime {font-size: 2.5em; text-align: left; display: block; line-height: 0.2em;}
+header .title-form datetime {font-size: 2.5em; text-align: left; display: block;}
 header .title-form location {font-size: 1.5em; text-align: left; display:block;}
 header .title-form info {font-size: 1em; text-align: left; display:block;}
 header .title-action {clear:both; padding-bottom:40px;}
