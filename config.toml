@@ -1,5 +1,5 @@
 # Site settings
-baseurl = ""
+baseurl = "http://freedomfighters612.org"
 languageCode = "en-us"
 title = "Freedom Fighters 6.12"
 theme = "agency"
